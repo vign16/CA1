@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 
 int main() {
     float principal, rate, time, interest;
@@ -12,4 +12,5 @@ int main() {
     printf("The simple interest is: %.2f\n", interest);
     return 0;
 }
+
 

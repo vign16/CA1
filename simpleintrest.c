@@ -1,24 +1,21 @@
 #include <stdio.h>
 
-float calculateInterest(float principal, float rate, float time) {
-    return (principal * rate * time) / 100;
-}
-
 int main() {
     float principal, rate, time, interest;
 
-    printf("Enter principal: ");
+    printf("Principal: ");
     scanf("%f", &principal);
 
-    printf("Enter rate: ");
+    printf("Rate: ");
     scanf("%f", &rate);
 
-    printf("Enter time: ");
+    printf("Time: ");
     scanf("%f", &time);
 
-    interest = calculateInterest(principal, rate, time);
+    // Calculate interest
+    interest = principal * rate * time / 100;
 
-    printf("Simple interest: %.2f\n", interest);
+    printf("Simple Interest: %.2f\n", interest);
 
     return 0;
 }

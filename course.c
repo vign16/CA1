@@ -23,6 +23,9 @@ int main() {
 	    case 3:
             printf("You selected ECE.\n");
             break;
+	    case 4:
+            printf("You selected Mechanical.\n");
+            break;
     }
 
     return 0;

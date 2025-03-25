@@ -17,9 +17,9 @@ int main() {
         case 1:
             printf("You selected CSE.\n");
             break;
-
-	    default:
-            printf("Invalid choice! Please select a number between 1 and 4.\n");
+	    case 2:
+            printf("You selected AI & ML.\n");
+            break;
     }
 
     return 0;

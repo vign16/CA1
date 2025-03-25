@@ -20,6 +20,9 @@ int main() {
 	    case 2:
             printf("You selected AI & ML.\n");
             break;
+	    case 3:
+            printf("You selected ECE.\n");
+            break;
     }
 
     return 0;
